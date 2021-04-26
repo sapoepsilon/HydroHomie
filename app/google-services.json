@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "862934440261",
+    "project_id": "hydrohomie-94970",
+    "storage_bucket": "hydrohomie-94970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862934440261:android:56dd48adc70c8f503d862c",
+        "android_client_info": {
+          "package_name": "com.izzylabs.hydrohomie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862934440261-8k78i37j9ljtkccbsa0t9kcrk5e5i0i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.izzylabs.hydrohomie",
+            "certificate_hash": "2b4c20bba14d310ab6e1758abb39c5f8c1607293"
+          }
+        },
+        {
+          "client_id": "862934440261-ngdltrnipkfqr3pqd7ssr61h72i52bn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZtfgdZqh3jdhRmVFZhxIVzYZaXil14M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862934440261-ngdltrnipkfqr3pqd7ssr61h72i52bn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

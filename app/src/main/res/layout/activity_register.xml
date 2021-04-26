@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/cosmic_Layout"
+        android:background="@drawable/background">
+
+
+        <View
+            android:id="@+id/loginBackground"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/rectgangle"
+            android:padding="23dp"
+            app:layout_goneMarginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="130sp"
+            android:orientation="vertical"
+            android:id="@+id/login_Frame">
+
+            <EditText
+                android:id="@+id/email_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="E-mail"
+                />
+            <EditText
+                android:id="@+id/password_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+            <EditText
+                android:id="@+id/repeat_password_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                />
+            <EditText
+                android:id="@+id/name_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Name"
+                />
+
+            <EditText
+                android:id="@+id/lastName_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Last Name"
+                />
+            <EditText
+                android:id="@+id/gender_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Gender"
+                />
+            <EditText
+                android:id="@+id/height_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Height"
+                />
+
+            <EditText
+                android:id="@+id/weight_Edit"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/input_background"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:hint="Weight"
+                />
+            <Button
+                android:id="@+id/Signup_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Sign up"
+                android:background="@drawable/rounded_button"
+                app:backgroundTint="@color/textColor"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
